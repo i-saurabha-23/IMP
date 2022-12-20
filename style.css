@@ -1,0 +1,25 @@
+@media (min-width: 420px){
+    .pdf embed{
+        width: 100%;
+        height: 30rem;
+    }
+}
+@media (min-width: 390px){
+    .pdf embed{
+        width: 100%;
+        height: 26.5rem;
+    }
+}
+@media (min-width: 300px){
+    .pdf embed{
+        width: 100%;
+        height: 18rem;
+    }
+}
+.pdf{
+    text-align: center;
+}
+.pdf embed{
+    width: 50%;
+    height: 53rem;
+}
