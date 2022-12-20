@@ -23,3 +23,13 @@
     width: 50%;
     height: 53rem;
 }
+button{
+    margin: 1rem;
+}
+a{
+    text-decoration: none;
+}
+.containar{
+    display: flex;
+    justify-content: space-around;
+}
