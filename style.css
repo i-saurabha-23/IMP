@@ -33,3 +33,75 @@ a{
     display: flex;
     justify-content: space-around;
 }
+@media (max-width: 400px){    
+.clicks{
+    text-align: center;
+    padding: 2rem;
+}
+.clicks button{
+    text-align: center;
+    padding: 1rem;
+    width: 10rem;
+    height: 3rem;
+}
+.containar{
+    text-align: center;
+    display: block;
+    /* display: flex;
+    justify-content: space-around; */
+}
+/* button{
+    text-align: center;
+} */
+}
+@media (min-width: 400px) and (max-width: 700px){    
+.clicks{
+    display: block;
+    text-align: center;
+    padding: 2rem;
+}
+.clicks button{
+    text-align: center;
+    padding: 2rem;
+    width: 15rem;
+    height: 5rem;
+}
+.containar{
+    width: 25rem;
+    text-align: center;
+    display: block;
+    /* display: flex;
+    justify-content: space-around; */
+}
+/* button{
+    text-align: center;
+} */
+}
+@media (min-width: 700px) and (max-width: 1000px){    
+.clicks{
+    display: block;
+    text-align: center;
+    padding: 2rem;
+}
+.clicks button{
+    text-align: center;
+    padding: 2rem;
+    width: 20rem;
+    height: 5rem;
+}
+}@media (min-width: 1001px){    
+.clicks{
+    display: block;
+    text-align: center;
+    padding: 2rem;
+}
+.clicks button{
+    text-align: center;
+    padding: 2rem;
+    width: 50rem;
+    height: 5rem;
+}
+.clicks button a{
+    font-size: large;
+}
+}
