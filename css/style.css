@@ -1,28 +1,3 @@
-@media (min-width: 420px){
-    .pdf embed{
-        width: 100%;
-        height: 30rem;
-    }
-}
-@media (min-width: 390px){
-    .pdf embed{
-        width: 100%;
-        height: 26.5rem;
-    }
-}
-@media (min-width: 300px){
-    .pdf embed{
-        width: 100%;
-        height: 18rem;
-    }
-}
-.pdf{
-    text-align: center;
-}
-.pdf embed{
-    width: 50%;
-    height: 53rem;
-}
 button{
     margin: 1rem;
 }
@@ -104,4 +79,11 @@ a{
 .clicks button a{
     font-size: large;
 }
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+.navbar .logo img {
+    width: 4rem;
 }
