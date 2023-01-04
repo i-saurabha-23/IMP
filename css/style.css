@@ -8,6 +8,33 @@ a{
     display: flex;
     justify-content: space-around;
 }
+.pdf{
+    display: flex;
+    justify-content: center;
+}
+.pdf iframe{
+    width: 50vw;
+    height: 80vh;
+}
+.download{
+    display: flex;
+    justify-content: center;
+}
+.download button{
+    background-color: rgb(63, 157, 251);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: 2px solid rgb(161, 161, 161);
+    cursor: pointer;
+}
+.download button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+/* .containar .thumbnail embed{
+    width: 20vw;
+} */
 @media (max-width: 400px){    
 .clicks{
     text-align: center;
@@ -28,6 +55,28 @@ a{
 /* button{
     text-align: center;
 } */
+.pdf{
+    display: flex;
+    justify-content: center;
+
+}
+.pdf iframe{
+    width: 80vw;
+    height: 60vh;
+    /* margin: auto; */
+}
+.download{
+    display: flex;
+    justify-content: center;
+}
+.download button{
+    background-color: rgb(63, 157, 251);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: 2px solid rgb(161, 161, 161);
+    cursor: pointer;
+}
 }
 @media (min-width: 400px) and (max-width: 700px){    
 .clicks{
