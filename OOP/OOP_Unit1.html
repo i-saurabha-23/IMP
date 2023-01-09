@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/IMPS.png">
+    <link rel="stylesheet" href="/css/style.css">
+    <title> MISSION 10</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Introduction To Object Oriented Programing</h1>
+    <hr>
+    <button>
+        <a href="/OOP/OOP.html">Back</a>
+    </button>
+    <div id="viewer" class="pdf"></div>
+    <script type="text/javascript" src="https://cloudpdf.io/viewer.min.js"></script>
+    <script>
+      const config = { 
+        documentId: '3eba63fb-06ab-4100-91db-ea41c5b8ce29',
+        darkMode: true, 
+      };
+      CloudPDF(config, document.getElementById('viewer')).then((instance) => {
+        
+      });
+    </script>
+    <!-- <div class="download">
+        <a href="/DSGT/(DSGT) IMPya FHYampya .pdf">
+            <button>Download</button>
+        </a>
+    </div> -->
+</body>
+</html>
