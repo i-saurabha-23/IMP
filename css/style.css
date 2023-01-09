@@ -5,16 +5,13 @@ a{
     text-decoration: none;
 }
 .containar{
-    display: flex;
-    justify-content: space-around;
+    /* display: flex;
+    justify-content: space-around; */
 }
 .pdf{
-    display: flex;
-    justify-content: center;
-}
-.pdf iframe{
-    width: 50vw;
-    height: 80vh;
+    margin: auto;
+    width: 21cm;
+    height: 29.7cm;
 }
 .download{
     display: flex;
@@ -135,4 +132,24 @@ a{
 }
 .navbar .logo img {
     width: 4rem;
+}
+.content{
+    border: 2px solid silver;
+    width: 50rem;
+    height: max-content;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    margin: 1rem auto;
+    font-size: 2rem;
+}
+a{
+    color: black;
+}
+/* .content a{
+    margin: 2rem 0rem;
+} */
+.content:hover{
+    background-color: dodgerblue;
+    border-color: black;
 }
