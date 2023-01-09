@@ -4,10 +4,10 @@ button{
 a{
     text-decoration: none;
 }
-.containar{
-    /* display: flex;
-    justify-content: space-around; */
-}
+/* .containar{
+    display: flex;
+    justify-content: space-around;
+} */
 .pdf{
     margin: auto;
     width: 21cm;
